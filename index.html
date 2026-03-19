@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CODESTUDIO - Website Development</title>
+  <meta name="description" content="CODESTUDIO - Website və App hazırlanması">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">CODESTUDIO</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Xidmətlər</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Əlaqə</a></li>
+    </ul>
+  </nav>
+
+  <!-- WELCOME / HOME -->
+  <section id="home">
+    <h1>Salam! Mən CODESTUDIO</h1>
+    <p>Website və App hazırlanması sahəsində sizə kömək edəcəyəm.</p>
+    <button onclick="scrollToContact()">Əlaqə</button>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h2>Xidmətlərimiz</h2>
+    <div class="services-container">
+      <div class="service">
+        <h3>Website Hazırlama</h3>
+        <p>Modern və sürətli saytlar.</p>
+      </div>
+      <div class="service">
+        <h3>App Hazırlama</h3>
+        <p>Android və iOS üçün mobil tətbiqlər.</p>
+      </div>
+      <div class="service">
+        <h3>UI/UX Dizayn</h3>
+        <p>Gözəl və funksional interfeys dizaynları.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-container">
+      <div class="project">Demo Sayt 1</div>
+      <div class="project">Demo Sayt 2</div>
+      <div class="project">Demo App</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Əlaqə</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Adınız" required>
+      <input type="email" placeholder="Email" required>
+      <input type="tel" placeholder="Telefon Nömrəniz" required>
+      <textarea placeholder="Mesajınız" required></textarea>
+      <button type="submit">Göndər</button>
+    </form>
+    <p id="successMsg"></p>
+  </section>
+
+  <footer>
+    &copy; 2026 CODESTUDIO. Bütün hüquqlar qorunur.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
